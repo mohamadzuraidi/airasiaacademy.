@@ -38,7 +38,7 @@ else:
    bar = st.progress(0)
    
    for i in range(100):
-      latest_iteration.text(f'Iteration {1+1}')
+      latest_iteration.text(f'Iteration {i+1}')
       bar.progess
       time.sleep(0.1)
       
